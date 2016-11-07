@@ -9,7 +9,7 @@ class Calculator
     puts 'I am a simple calculator application. '\
          "I can add, subtract, multiply, and divide.\n\n"
     name
-  end
+
 
   # This method ask the user what type of calculation they would like to perform
   # It returns the operation or an error for erroneous entry
@@ -19,7 +19,7 @@ class Calculator
       '4 to divide two numbers: '
     )
     operation_selection = gets.to_i
-    if operation_selection = 1
+    if operation_selection ==1
       'add'
     elsif operation_selection == 2
       'subtract'
