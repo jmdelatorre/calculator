@@ -19,7 +19,7 @@ class Calculator
       '4 to divide two numbers: '
     )
     operation_selection = gets.to_i
-    if operation_selection == 1
+    if operation_selection = 1
       'add'
     elsif operation_selection == 2
       'subtract'
